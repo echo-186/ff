@@ -1,0 +1,10 @@
+<!--page/u3/u3-2.wxml-->
+<view><text>这些IO口分为数字接口和模拟接口等，D代表digital，用于输入或输出数字信号；A代表analogue，用于输入或输出模拟信号。数字信号是离散的，模拟信号是连续的</text></view>
+ <movable-area style="height: 180px;width: 1800px;">
+    <movable-view style="height: 10000rpx; width: 15000rpx" x="{{x}}" y="{{y}}" inertia ="true" out-of-bounds="true"direction="horizontal">
+    <scroll-view scroll-y="true" scroll-x="true" style="height:80%;width:80%">  
+<image id = "SFimg" catchtouchend="endtap" catchtouchmove="movetap" bindload = "imgload"  
+ style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px;margin" mode="aspectFit" src="http://chuantu.biz/t6/178/1513495957x-1404817692.png" ></image> 
+ </scroll-view> 
+  </movable-view>
+  </movable-area>

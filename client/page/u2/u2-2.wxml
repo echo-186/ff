@@ -1,0 +1,10 @@
+<!--page/u2/u2-2.wxml-->
+<text>初始值为1（high），触摸开关接受信号后，该值为0。若开关未接触信号，值为1。 有信号波动属于可接受范围</text>
+<movable-area style="height: 180px;width: 1800px;">
+    <movable-view style="height: 10000rpx; width: 15000rpx" x="{{x}}" y="{{y}}" inertia ="true" out-of-bounds="true"direction="horizontal">
+    <scroll-view scroll-y="true" scroll-x="true" style="height:80%;width:80%">  
+<image id = "SFimg" catchtouchend="endtap" catchtouchmove="movetap" bindload = "imgload"  
+ style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px;margin" mode="aspectFit" src="http://chuantu.biz/t6/178/1513497395x-1404817692.jpg" ></image> 
+ </scroll-view> 
+  </movable-view>
+  </movable-area>

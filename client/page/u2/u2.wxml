@@ -1,0 +1,8 @@
+<view class="aaa">
+<button size="{{primarySize}}"bindtap="else">数制码制</button>
+<button size="{{primarySize}}"bindtap="second">串口通信</button>
+<button size="{{primarySize}}"bindtap="else">红外接发</button>
+<button size="{{primarySize}}"bindtap="else">液晶显示按键编码</button>
+<button size="{{primarySize}}"bindtap="else" >睡眠和中断唤醒</button>
+<button size="{{primarySize}}"bindtap="else">I2C主从机通信</button>
+</view>

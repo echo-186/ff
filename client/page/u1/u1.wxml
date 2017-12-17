@@ -1,0 +1,8 @@
+<view class="aaa" >
+<button size="{{primarySize}}"bindtap="first">开源硬件系列1:LED实验	</button>
+<button size="{{primarySize}}"bindtap="second">开源硬件系列2:传感器类实验</button>
+<button size="{{primarySize}}"bindtap="third">开源硬件系列3:蓝牙</button>
+<button size="{{primarySize}}"bindtap="forth">开源硬件系列4:电机／舵机</button>
+<button size="{{primarySize}}"bindtap="forth" >开源硬件系列5:入门综合1-招财猫</button>
+<button size="{{primarySize}}"bindtap="forth">开源硬件系列6:入门综合2-音乐盒</button>
+</view>

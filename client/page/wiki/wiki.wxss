@@ -1,0 +1,29 @@
+/* pages/wiki/wiki.wxss */
+.section {
+  height:100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200rpx 0rpx;
+  box-sizing: border-box;
+  font-size:50rpx ;
+  background-color:#e6e6e6;
+} 
+
+.a{
+  height:100 rpx;
+    padding: 100rpx 0rpx;
+    flex-direction: column;
+      align-items: center;
+      font-size:50rpx ;
+}
+.jx_card{
+
+    top: 500rpx;
+    margin-left: 30rpx;
+    width: 400rpx;
+    height: 800rpx;
+    float: left;
+    position: absolute;
+
+}

@@ -1,0 +1,7 @@
+/* pages/u1/u1.wxss */
+.aaa
+{
+   height:100%;
+      font-size:50rpx ;
+     font-stretch: semi-condensed
+}

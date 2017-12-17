@@ -1,0 +1,9 @@
+<view class="aaa">
+<button size="{{primarySize}}"bindtap="else">单片机简介</button>
+<button size="{{primarySize}}"bindtap="second">自动控制路灯</button>
+<button size="{{primarySize}}"bindtap="third">数字温度计</button>
+<button size="{{primarySize}}"bindtap="else">智能温控风扇</button>
+<button size="{{primarySize}}"bindtap="else" >同向比例运算</button>
+<button size="{{primarySize}}"bindtap="else">焦耳小偷电路</button>
+<button size="{{primarySize}}"bindtap="else">LM386音频放大电路</button>
+</view>

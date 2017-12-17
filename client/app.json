@@ -1,0 +1,35 @@
+{
+    "pages": [
+     
+      "page/index1/index1",
+      "page/wiki/wiki",
+      "page/u1/u1",
+      "page/u1/u1-2",
+      "page/u1/u1-3",
+      "page/u2/u2",
+        "page/u2/u2-2",
+      "page/u3/u3",
+      "page/u3/u3-2",
+      "page/u3/u3-3",
+      "pages/index/index",
+       "pages/chat/chat"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#333",
+        "navigationBarTitleText": "导论交流",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "page/index1/index1",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "聊天室"
+        }
+      ]
+    }
+}

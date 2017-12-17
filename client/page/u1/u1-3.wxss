@@ -1,0 +1,5 @@
+/* page/u1/u1-3.wxss */
+.photo {
+  width: 100%;
+  overflow: hidden;
+}

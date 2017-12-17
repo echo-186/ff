@@ -1,0 +1,9 @@
+<!--page/u3/u3-3.wxml-->
+ <movable-area style="height: 180px;width: 1800px;">
+    <movable-view style="height: 10000rpx; width: 15000rpx" x="{{x}}" y="{{y}}" inertia ="true" out-of-bounds="true"direction="all">
+    <scroll-view scroll-y="true" scroll-x="true" style="height:80%;width:80%">  
+<image id = "SFimg" catchtouchend="endtap" catchtouchmove="movetap" bindload = "imgload"  
+ style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px;margin" mode="aspectFit" src="http://chuantu.biz/t6/178/1513494966x-1404817651.png" ></image> 
+ </scroll-view> 
+  </movable-view>
+  </movable-area>

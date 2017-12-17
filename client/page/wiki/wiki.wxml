@@ -1,0 +1,14 @@
+<view class="section">
+  <text >壮士保重(～￣▽￣)～</text>
+   </view> 
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <view class="a">本次验收的是：</view>
+    <view class="picker">
+    {{array[index]}}
+    </view>
+  </picker>
+  <view class="jx_card">
+   <image  src="../../image/view.png">
+    </image>
+ </view>
+ 

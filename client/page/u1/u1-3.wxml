@@ -1,0 +1,11 @@
+<!--page/u1/u1-3.wxml-->
+<movable-area style="height: 180px;width: 1800px;">
+    <movable-view style="height: 10000rpx; width: 15000rpx" x="{{x}}" y="{{y}}" inertia ="true" out-of-bounds="true"direction="horizontal">
+    <scroll-view scroll-y="true" scroll-x="true" style="height:80%;width:80%">  
+<image id = "SFimg" catchtouchend="endtap" catchtouchmove="movetap" bindload = "imgload"  
+ style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px;margin" mode="aspectFit" src="../../guangzhaochuanganqi.1.png" ></image> 
+ </scroll-view> 
+  </movable-view>
+  </movable-area>
+ 
+

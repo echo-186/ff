@@ -1,0 +1,27 @@
+
+
+<!--index.wxml-->
+<view class="index-container">
+   <image  src="/image/index.jpg" ></image>
+</view>
+<view class="index-container-prow"><!--第一行-->
+   <view class="index-container-prow-pt">
+      <image src="/image/wiki_icon.png" bindtap="wiki"></image>
+      <text bindtap="wiki">{{wiki}}</text>
+   </view>
+   <view class="index-container-prow-pt">
+      <image src="/image/help.png" bindtap="help"></image>
+      <text bindtap="help">{{help}}</text>
+   </view>
+</view>
+<view class="index-container-prow"><!--第二行-->
+<view class="index-container-prow-pt">
+      <image src="/image/program.png" bintap="program"></image>
+      <text bintap="program">{{program}}</text>
+   </view>
+   <view class="index-container-prow2-logo">
+      <image src="/image/logo.png"></image>
+  
+   </view>
+</view>
+
